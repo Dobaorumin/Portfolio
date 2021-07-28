@@ -8,7 +8,7 @@
 /* HERO SECTION*/
 
 html {
-  background-image: url("./public/fondo.jpg");
+  background-image: url("./src/public/fondo.jpg");
   background-attachment: fixed, scroll;
   background-size: cover;
 }
