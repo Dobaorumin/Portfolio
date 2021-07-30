@@ -434,7 +434,7 @@ html {
 .projects-box {
   border: 1px solid white;
   background-color: #010302;
-  height: 350px;
+  height: fit-content;
   width: 60%;
   margin: auto;
   border-radius: 15px;
@@ -446,12 +446,6 @@ html {
 @media screen and (max-width: 700px) {
   .projects-box {
     width: 90%;
-  }
-}
-
-@media screen and (max-width: 1147px) {
-  .projects-box {
-    height: 670px;
   }
 }
 
@@ -487,7 +481,7 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
-  margin: 20px 0 80px;
+  margin: 20px 0 20px;
 }
 
 .card__image {
